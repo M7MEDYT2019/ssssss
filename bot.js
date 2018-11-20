@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('ready', async() => {
 var server = "512922467417718784"; // ايدي السررفر
-var channel = "513749789436018688";//ايدي الروم
+var channel = "513749906498912256";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('** محمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمد **')
     },305);
@@ -15,25 +15,9 @@ var channel = "513749789436018688";//ايدي الروم
 
 
 
-client.on('ready', async() => {
-var server = "512922467417718784"; // ايدي السررفر
-var channel = "513749789436018688";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('#daily')
-    },8.64e+7);
-})
-
-client.on('ready', async() => {
-var server = "512922467417718784"; // ايدي السررفر
-var channel = "513749789436018688";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('#rep <@314135031029170197>')
-    },8.64e+7);
-})
-
 
 client.on('message', message => {
-if(message.content.startsWith('1s')) {
+if(message.content.startsWith('51s')) {
 if(message.author.id !== "502474928466165760") return;
 var args = message.content.split(' ').slice(1).join(' ');
 message.channel.send(args);
@@ -70,4 +54,4 @@ client.on('message', message => {
 
 
 
-client.login(process.env.BOT_TOKEN); 
+client.login(process.env.BOT_TOKEN);
